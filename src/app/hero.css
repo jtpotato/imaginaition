@@ -1,11 +1,11 @@
-#imaginaition-title {
+.imaginaition-glow {
   background-image: repeating-linear-gradient(
     -90deg,
-    black 0%,
-    black 10%,
-    rgb(255, 154, 65) 50%,
-    black 100%,
-    black 100%
+    rgba(255, 154, 65, 1) 0%,
+    rgba(255, 154, 65, 1) 40%,
+    #ffcfa5 50%,
+    rgba(255, 154, 65, 1) 60%,
+    rgba(255, 154, 65, 1) 100%
   );
   background-size: 200% 100%;
   background-clip: text;

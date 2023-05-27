@@ -1,24 +1,15 @@
 import React from "react";
+import "./hero.css"
 
 function Home() {
   return (
     <>
-      <div className="hero w-screen h-screen flex items-center justify-center">
+      <div className="w-screen h-screen flex items-center justify-center text-center">
         <div>
-          <h1
-            style={{
-              backgroundImage:
-                "linear-gradient(0deg, rgba(255,167,64,1) 20%, rgba(255,255,255,1) 60%)",
-            }}
-            className="text-transparent bg-clip-text m-0 text-6xl p-4"
-          >
-            Imaginaition
-          </h1>
-          <div className="-z-10 relative" style={{ filter: "blur(40px)", top: "-8em" }}>
-            <div className="w-48 h-48 bg-orange-400">
-
-            </div>
-          </div>
+          <h1 className="text-9xl font-bold m-0 p-4" id="imaginaition-title">Imaginaition</h1>
+          <p className="text-2xl text-white">
+            The product suite <b>for you</b>.
+          </p>
         </div>
       </div>
     </>

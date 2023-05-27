@@ -1,16 +1,16 @@
 .imaginaition-glow {
   background-image: repeating-linear-gradient(
     -90deg,
-    rgba(255, 154, 65, 1) 0%,
-    rgba(255, 154, 65, 1) 40%,
-    #ffcfa5 50%,
-    rgba(255, 154, 65, 1) 60%,
-    rgba(255, 154, 65, 1) 100%
+    rgb(232 121 249) 0%, /* fuchsia-400 */
+    rgb(232 121 249) 40%,
+    #ffa5e7 50%,
+    rgb(232 121 249) 60%,
+    rgb(232 121 249) 100%
   );
   background-size: 200% 100%;
   background-clip: text;
   color: transparent;
-  animation: pulse 5s linear infinite;
+  animation: pulse 2s linear infinite;
 }
 
 @keyframes pulse {
